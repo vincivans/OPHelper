@@ -1,10 +1,10 @@
-#OPChooser
+#OPHelper
 
 ## About
 
-OPChooser is a tool to help you to make options trading decision. 
+OPHelper is a tool to help you to make options trading decision. 
 It analyzes all of options retrieved by the given ticker symbol, then gives you a set of options which has the max payoff.(Note: with the demo version(iborder branch), you could place an order after getting the result.) 
-OPChooser is also a final project for Stevens Institute of Technology - FE545 Design Patterns and Derivatives Pricing. The Motivations for this project is to learn and practice Object Oriented Design Patterns. 
+OPHelper is also a final project for Stevens Institute of Technology - FE545 Design Patterns and Derivatives Pricing. The Motivations for this project is to learn and practice Object Oriented Design Patterns. 
 
 
 ## Branch
@@ -152,7 +152,7 @@ Under the root directory
 ```
 $ git checkout iborder (switch to branch iborder in order to support place order)
 $ make
-$ ./OPChooser -h
+$ ./OPHelper -h
 Allowed options:
   -h [ --help ]         Print help messages.
   -v [ --verbose ]      Print words with verbosity.
